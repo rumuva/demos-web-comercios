@@ -1,0 +1,17 @@
+DEMOS CON AGENDA — Rubén Muñoz
+Publicado: https://demos.rubenmunozdocente.digital/gestion.php
+
+PHP 8 + PDO SQLite. Colocar los HTML y gestion.php en public_html.
+La base de datos se crea automáticamente en ../.rm-agenda/demo.sqlite, fuera de la raíz pública. La carpeta superior debe permitir escritura al usuario de PHP.
+Cada navegador tiene un espacio de demostración mediante cookie de sesión. No introducir clientes reales. Alta de clientes con nombre, correo y teléfono de prueba; validación de campos y correo único por negocio y sesión. Las citas se vinculan mediante un identificador a la ficha del cliente. Las fichas no sustituyen una cuenta de usuario con autenticación. La limpieza de espacios tras 7 días de inactividad se realiza al visitar la aplicación.
+Funciones: reservar un servicio por cita, agenda de lunes a viernes de 09:00 a 18:00, bloqueo de solapamientos, tarifa y duración editables, importes históricos, estados pendiente/confirmada/realizada/cancelada.
+Es una demostración, no un sistema preparado para clientes reales. El despliegue comercial requiere cuentas privadas por negocio, configuración de personal/horarios, política de datos y copias de seguridad. No incluye pagos, avisos por correo ni SMS.
+Las fotografías de los HTML se sirven desde Unsplash y conservan sus créditos.
+
+Atención telefónica: buscador de clientes por nombre, correo y teléfono. Botón Asignar cita por teléfono preselecciona la ficha y el origen de la reserva. La agenda conserva el origen Web, Teléfono o Presencial.
+
+Calendario: vistas Día, Semana (lunes a domingo) y Mes. Navegación anterior/siguiente/hoy y selector de fecha. Las citas abren sus detalles; el listado inferior se filtra al periodo mostrado. En pantallas pequeñas los calendarios semanal y mensual se desplazan horizontalmente.
+
+Reprogramación: las citas pendientes o confirmadas permiten cambiar fecha y hora conservando cliente, servicio, importe y duración. La comprobación transaccional rechaza solapamientos y mantiene la cita original. El historial conserva los horarios anteriores.
+
+Filtros: todas las citas, pendientes, confirmadas, realizadas o canceladas; se conservan al navegar entre vistas y fechas. Botón Imprimir agenda del periodo: tabla para impresión o guardado como PDF desde el navegador con los mismos filtros.
