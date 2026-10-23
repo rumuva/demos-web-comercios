@@ -2,14 +2,17 @@
 
 Autor: Rubén Muñoz.
 
-- [Peluquería ALBA](https://demos.rubenmunozdocente.digital/peluqueria.html)
-- [Academia NEXO](https://demos.rubenmunozdocente.digital/academia.html)
-- [Taller PUNTO motor](https://demos.rubenmunozdocente.digital/taller.html)
+## Webs públicas en GitHub Pages
+
+- [Peluquería ALBA](https://rumuva.github.io/demos-web-comercios/peluqueria.html)
+- [Academia NEXO](https://rumuva.github.io/demos-web-comercios/academia.html)
+- [Taller PUNTO motor](https://rumuva.github.io/demos-web-comercios/taller.html)
+- [Portfolio](https://rumuva.github.io/demos-web-comercios/)
 
 ## Funcionamiento
 
-`docs/` contiene las tres webs y el portfolio listas para GitHub Pages. Las versiones funcionando están publicadas en Hostinger. Los enlaces a la agenda abren el sistema PHP/SQLite alojado en Hostinger, ya que GitHub Pages solo sirve archivos estáticos.
+`docs/` se publica con GitHub Pages desde la rama main. Las tres webs enlazan con la agenda PHP/SQLite de Hostinger: https://demos.rubenmunozdocente.digital/gestion.php
 
-`hostinger/` contiene el código de la agenda y sus instrucciones. El repositorio no contiene bases de datos, fichas de clientes, credenciales ni datos de reservas. Se publican únicamente archivos de código.
+`hostinger/` contiene el código y las instrucciones de la agenda. GitHub Pages no ejecuta PHP. Las versiones de las webs en Hostinger siguen disponibles.
 
-La agenda es una demostración por sesión de navegador, con datos ficticios. No dispone todavía de acceso privado de producción. Las fotografías externas conservan sus créditos en cada web.
+El repositorio contiene código, sin bases de datos, fichas de clientes, credenciales ni reservas. La agenda es una demostración con datos ficticios y espacios separados por sesión de navegador; el acceso privado de producción está pendiente. Las fotografías externas conservan sus créditos en cada web.
